@@ -6,44 +6,41 @@ The goal of this roadmap is to understand AI concepts step by step — starting 
 
 ## 🟢 Part 1 — LLM Foundations
 
-* **What is an LLM?**
+- **What is an LLM?**
   → Simple Next Token Prediction with Python
 
-* **Tokens**
+- **Tokens**
   → Build a tiny tokenizer with Python
 
-* **Token IDs**
+- **Token IDs**
   → Convert tokens into numbers
 
-* **Context Window**
+- **Context Window**
   → Simulate a token limit
 
-* **Embeddings**
+- **Embeddings**
   → Represent words and text as vectors
 
-* **Cosine Similarity**
+- **Cosine Similarity**
   → Build semantic similarity from scratch
-
-* **Bag of Words / TF-IDF**
-  → Compare traditional text representation with embeddings
 
 ---
 
 ## 🟡 Part 2 — Transformers
 
-* **Attention**
+- **Attention**
   → Simple Query / Key / Value implementation
 
-* **Self-Attention**
+- **Self-Attention**
   → Understand how words look at other words
 
-* **Multi-Head Attention**
+- **Multi-Head Attention**
   → Simplified implementation
 
-* **Positional Encoding**
+- **Positional Encoding**
   → Give the model information about word order
 
-* **Transformer Pipeline**
+- **Transformer Pipeline**
 
 ```text
 Input
@@ -63,14 +60,14 @@ Output
 
 ## 🟠 Part 3 — LLM Engineering
 
-* **Prompting**
-* **System / User / Assistant Messages**
-* **Temperature**
-* **Top-P**
-* **Frequency & Presence Penalty**
-* **Structured Output**
-* **Model Evaluation**
-* **Token-based Pricing & Cost Optimization**
+- **Prompting**
+- **System / User / Assistant Messages**
+- **Temperature**
+- **Top-P**
+- **Frequency & Presence Penalty**
+- **Structured Output**
+- **Model Evaluation**
+- **Token-based Pricing & Cost Optimization**
 
 ---
 
@@ -78,16 +75,16 @@ Output
 
 This is where the previous Python concepts start connecting together.
 
-* **Document Loading**
-* **Text Cleaning**
-* **Chunking**
-* **Metadata**
-* **Embeddings**
-* **Vector Databases**
-* **Similarity Search**
-* **Top-K Retrieval**
-* **MMR**
-* **Build a Complete Simple RAG**
+- **Document Loading**
+- **Text Cleaning**
+- **Chunking**
+- **Metadata**
+- **Embeddings**
+- **Vector Databases**
+- **Similarity Search**
+- **Top-K Retrieval**
+- **MMR**
+- **Build a Complete Simple RAG**
 
 ### Simple RAG Flow
 
@@ -115,16 +112,16 @@ Answer
 
 After understanding the concepts from scratch, we move to using a framework to build applications more easily.
 
-* **LangChain Basics**
-* **PromptTemplate**
-* **Models**
-* **Output Parsers**
-* **Chains / LCEL**
-* **Retrievers**
-* **LangChain RAG**
-* **Memory**
-* **Conversation History**
-* **Build a Small LangChain Application**
+- **LangChain Basics**
+- **PromptTemplate**
+- **Models**
+- **Output Parsers**
+- **Chains / LCEL**
+- **Retrievers**
+- **LangChain RAG**
+- **Memory**
+- **Conversation History**
+- **Build a Small LangChain Application**
 
 ---
 
@@ -132,16 +129,16 @@ After understanding the concepts from scratch, we move to using a framework to b
 
 Finally, we move to building more structured and stateful AI applications.
 
-* **Graph Concept**
-* **Nodes**
-* **Edges**
-* **State**
-* **Conditional Edges**
-* **Stateful Applications**
-* **Threads & Checkpoints**
-* **Short-term vs Long-term Memory**
-* **Context Summarization**
-* **Build a Simple AI Agent with LangGraph**
+- **Graph Concept**
+- **Nodes**
+- **Edges**
+- **State**
+- **Conditional Edges**
+- **Stateful Applications**
+- **Threads & Checkpoints**
+- **Short-term vs Long-term Memory**
+- **Context Summarization**
+- **Build a Simple AI Agent with LangGraph**
 
 ---
 
